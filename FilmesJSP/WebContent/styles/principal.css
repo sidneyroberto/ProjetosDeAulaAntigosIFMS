@@ -1,0 +1,43 @@
+body {
+	font: 12px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+#tudo {
+	width: 720px;
+	border: 2px solid #999;
+}
+
+#topo {
+	width: 720px;
+	height: 100px;
+	background-color: #808080;
+}
+
+#topo h1 {
+	margin: 0;
+}
+
+#menu {
+	float: left;
+	width: 130px;
+	padding: 10px;
+	background-color: #ccc;
+}
+
+#conteudo {
+	float: left;
+	width: 550px;
+	padding: 10px;
+}
+
+#rodape {
+	width: 700px;
+	height: 30px;
+	padding: 0 10px;
+	background-color: #999;
+	clear: both;
+}
+
+#rodape p {
+	line-height: 28px;
+}
