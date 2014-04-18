@@ -1,0 +1,29 @@
+package br.edu.ifms.lp2.arquivo;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class LeituraExemplo {
+
+	public static void main(String[] args) {
+		File arquivo = new File(
+				"/home/suesid/Ubuntu One/IFMS/2013/SegundoSemestre/LP3_Tecnico/exemplo.txt");
+		try {
+			Scanner leitor = new Scanner(arquivo);
+			String primeiraLinha = leitor.nextLine();
+			Double numeroSegundaLinha = leitor.nextDouble();
+			Double numeroTerceiraLinha = leitor.nextDouble();
+			String quartaLinha = leitor.nextLine();
+			String quintaLinha = leitor.nextLine();
+			System.out.println("Texto da linha 1: " + primeiraLinha);
+			System.out.println("Numero da linha 2: " + numeroSegundaLinha);
+			System.out.println("Numero da linha 3: " + numeroTerceiraLinha);
+			System.out.println("Texto da linha 4: " + quartaLinha);
+			System.out.println("Texto da linha 5: " + quintaLinha);
+			leitor.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+}
