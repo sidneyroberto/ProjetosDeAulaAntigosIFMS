@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)http://globocom.github.io/bootstrap/examples/carousel.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Estrada Parque de Piraputanga</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="carousel/css/bootstrap.css" rel="stylesheet">
+    <link href="carousel/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="carousel/css/global.css" rel="stylesheet">
+    <link href="carousel/css/lightbox.css" rel="stylesheet" />
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="carousel/img/icon.png">
+  </head>
+
+  <body>
+
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <!-- Wrap the .navbar in .container to center it on the page and provide easy way to target it with .navbar-wrapper. -->
+    <div id="menu" class="container navbar-wrapper">
+
+      <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+          <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="../atupark"><img src="carousel/img/icon.png" />&nbsp;Estrada Parque de Piraputanga</a>
+          <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#inicio">Inicio</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">História <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#prehistoria">Pré-História</a></li>
+                  <li><a href="#guerra">Guerra do Paraguai</a></li>
+                  <li><a href="#trem">A Estrada de Ferro</a></li>
+                </ul>
+                <li><a href="#local">Local</a></li> 
+                <li><a href="#turismo">Turismo</a></li> 
+                <li><a href="#">ATUPARK</a></li> 
+                <li><a href="https://www.facebook.com/pages/Associac%C3%A3o-de-Desenvolvimento-do-Turismo-Estrada-Parque-de-Piraputanga/1470943639803716?fref=ts" target="_blank"><img src="carousel/img/fb-cor.png"/></a></li> 
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!-- /.navbar-inner -->
+      </div><!-- /.navbar -->
+
+    </div><!-- /.container -->
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="inicio" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="carousel/img/estrada.png" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1><a href="#prehistoria" class="linkchamada">Conheça a Estrada Parque de Piraputanga</a></h1>
+              <p class="lead"><a href="#prehistoria" class="linkchamada">Conheça um pouco de nossa história</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="carousel/img/arara.png" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+             <h1><a href="#local" class="linkchamada">Venha ver este local de belezas variadas</a></h1>
+             <p class="lead"><a href="#local" class="linkchamada">Saiba mais sobre nossos atrativos naturais</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="carousel/img/cachoeira.png" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1><a href="#turismo" class="linkchamada">De braços abertos ao turista</a></h1>
+              <p class="lead"><a href="#turismo" class="linkchamada">O lugar ideal para quem procura esporte, lazer ou admiração a natureza</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="carousel/img/arvore.png" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+               <h1><a href="#" class="linkchamada">A ATUPARK</a></h1>
+               <p class="lead"><a href="#" class="linkchamada">Conheça a nossa Associação</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#inicio" data-slide="prev">‹</a>
+      <a class="right carousel-control" href="#inicio" data-slide="next">›</a>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="span4">
+          <img class="img-circle" src="carousel/img/aguaCristalina.jpg">
+          <h2>Nossas águas</h2>
+          <p>Além de um rio maravilhoso, com corredeiras convidativas ao mais diversos esportistas, nossa Estrada Parque também tem locais propícios aos banhistas e admiradores!</p>
+          <p>
+          	<a class="btn" href="carousel/img/original/aguaCristalina.jpg" data-lightbox="aguas" data-title="Águas da Estrada Parque de Piraputanga">Veja mais »</a>
+          	<a style="display:none;" href="carousel/img/original/quedaDagua.jpg" data-lightbox="aguas" data-title="Águas da Estrada Parque de Piraputanga"></a>
+          	<a style="display:none;" href="carousel/img/original/rio.jpg" data-lightbox="aguas" data-title="Águas da Estrada Parque de Piraputanga"></a>
+          	<a style="display:none;" href="carousel/img/original/rio2.jpg" data-lightbox="aguas" data-title="Águas da Estrada Parque de Piraputanga"></a>
+          	<a style="display:none;" href="carousel/img/original/rio3.jpg" data-lightbox="aguas" data-title="Águas da Estrada Parque de Piraputanga"></a>
+          	<a style="display:none;" href="carousel/img/original/rio4.jpg" data-lightbox="aguas" data-title="Águas da Estrada Parque de Piraputanga"></a>
+          </p>
+        </div><!-- /.span4 -->
+        <div class="span4">
+          <img class="img-circle" src="carousel/img/serra.jpg">
+          <h2>Nossas serras</h2>
+          <p>As diversas e variadas serras são a marca registrada de nossa Estrada Parque!</p>
+          <p>
+          	<a class="btn" href="carousel/img/original/serra2.jpg" data-lightbox="serras" data-title="Serras da Estrada Parque de Piraputanga">Veja mais »</a>
+          	<a style="display:none;" href="carousel/img/original/serra1.jpg" data-lightbox="serras" data-title="Serras da Estrada Parque de Piraputanga"></a>
+          	<a style="display:none;" href="carousel/img/original/serra3.jpg" data-lightbox="serras" data-title="Serras da Estrada Parque de Piraputanga"></a>
+          	<a style="display:none;" href="carousel/img/original/serra4.jpg" data-lightbox="serras" data-title="Serras da Estrada Parque de Piraputanga"></a>
+          	<a style="display:none;" href="carousel/img/original/serra5.jpg" data-lightbox="serras" data-title="Serras da Estrada Parque de Piraputanga"></a>
+          	<a style="display:none;" href="carousel/img/original/serra6.jpg" data-lightbox="serras" data-title="Serras da Estrada Parque de Piraputanga"></a>
+          </p>
+        </div><!-- /.span4 -->
+        <div class="span4">
+          <img class="img-circle" src="carousel/img/turismo2.jpg">
+          <h2>Turismo</h2>
+          <p>A riqueza ecológica da Estrada Parque de Piraputanga pode te proporcionar diversas experiências inesquecíveis!</p>
+          <p>
+          	<a class="btn" href="carousel/img/original/turismo1.jpg" data-lightbox="turismos" data-title="Turismo na Estrada Parque de Piraputanga">Veja mais »</a>
+          	<a style="display:none;" href="carousel/img/original/turismo2.jpg" data-lightbox="turismos" data-title="Turismo na Estrada Parque de Piraputanga"></a>
+          	<a style="display:none;" href="carousel/img/original/turismo3.jpg" data-lightbox="turismos" data-title="Turismo na Estrada Parque de Piraputanga"></a>
+          	<a style="display:none;" href="carousel/img/original/turismo4.jpg" data-lightbox="turismos" data-title="Turismo na Estrada Parque de Piraputanga"></a>
+          	<a style="display:none;" href="carousel/img/original/turismo5.jpg" data-lightbox="turismos" data-title="Turismo na Estrada Parque de Piraputanga"></a>
+          	<a style="display:none;" href="carousel/img/original/turismo6.jpg" data-lightbox="turismos" data-title="Turismo na Estrada Parque de Piraputanga"></a>
+          </p>
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr id="prehistoria"  class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="carousel/img/arqueologia.jpg">
+        <h2 class="featurette-heading">Pré-história: <span class="muted">povos antigos marcados em pinturas rupestres!</span></h2>
+        <p class="lead">Os estudos sobre a realidade arqueológica na região do município de Aquidauana e seu entorno tiveram início em 1987, quando uma equipe científica coordenada pelo arqueólogo da UFMS, <a href="http://lattes.cnpq.br/5303104689841004" target="_blank">Dr. Gilson Rodolfo Martins</a>, fez os primeiros levantamentos arqueológicos nessa área. Desde então, o significativo potencial do Patrimônio Cultural ficou evidenciado com a descoberta e registro de vários sítios arqueológicos que indicavam uma expressiva e antiga ocupação humana pré-colonial nos Distritos de Camisão, Piraputanga e Palmeiras.</p>
+        <p class="lead">Hoje, já se sabe que a área foi habitada por bandos de caçadores-coletores pré-históricos e por sociedades indígenas pré-coloniais que antecederam os povos indígenas que vivem atualmente nas áreas dos municípios interceptados pela Estrada Parque. Os dados arqueológicos acumulados pelas pesquisas realizadas nos últimos anos permitem afirmar que a origem do povoamento humano nas proximidades da Estrada Parque de Piraputanga remonta havia alguns milhares de anos atrás.</p>
+        <p class="lead">Os distintos povos e culturas que se desenvolveram nessa área ao longo dos últimos milênios, ao contrário do que se costuma pensar, criaram complexos sistemas de compreensão e simbolização da realidade. As representações de alguns aspectos de suas respectivas visões de mundo se fez, em alguns casos, sob a forma de variados tipos de grafismos (pinturas e gravuras sobre rochas - Arte Rupestre) encontrados em sítios arqueológicos que se distribuem ao longo da morraria que compõe as paisagens laterais das margens dessa rodovia.</p>
+      </div>
+
+      <hr id="guerra" class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-left" src="carousel/img/taunay.jpg">
+        <h2 class="featurette-heading">Guerra do Paraguai: <span class="muted">em tempos de guerra, nossa terra serviu de acolhida!</span></h2>
+        <p class="lead">Em tempos da Guerra do Paraguai (ou Guerra do Brasil, para os paraguaios, que durou de 1864 a 1870) os Morros ( Aquidauana ainda não existia), foram refúgio fundamental para os habitantes das Vilas de Miranda e Nioaque, primeiros núcleos habitacionais do sul do Mato Grosso uno, quando da invasão paraguaia.</p>
+        <p class="lead">Naqueles altiplanos e em suas fendas, verdadeiros abrigos naturais, conviveram em plena harmonia, indígenas de várias etnias, não indígenas e figuras ilustres do Império Brasileiro, como o <a href="http://pt.wikipedia.org/wiki/Alfredo_d%27Escragnolle_Taunay" target="_blank">Visconde de Taunay</a>. Este, inclusive, assim registrou sua passagem de cerca de nove meses, aguardando reforços para repelir os invasores:</p>
+        <p class="lead"><i>&ldquo;Os Morros! Que época alegre e despreocupada da minha vida! Que período de existência original e divertido! Muitos meses lá passei naquele planalto umbroso da Serra de Maracaju, de março a julho, em situação só comparável com a dos primeiros exploradores de regiões desconhecidas no meio de populações selvagens, mas de trato simpático e meigo. (...) É que experimentei ali, na prática das ideias de e teses de Jean-Jacques Rousseau, a doçura da vida não civilizada e o contato do homem bom de índole, mas inculto e agreste. (...) Sentia-me deveras feliz no seio daquela esplêndida natureza, debaixo daquelas gigantescas árvores ou à beira de puríssimas águas correntes e na íntima convivência dos muitos índios terena, quiniquinaus, laianos e guanás que nos cercavam&rdquo;</i></p>
+      </div>
+
+      <hr id="trem" class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="carousel/img/trem.jpg">
+        <h2 class="featurette-heading">A Estrada de Ferro: <span class="muted">os trilhos do Trem do Pantanal!</span></h2>
+        <p class="lead">O Trem do Pantanal é um serviço de trem que leva turistas por um passeio em um trecho que liga os municípios de Campo Grande e Miranda. No meio deste caminho, os turistas são deslumbrados com as lindas visões proporcionadas pela Estrada Parque de Piraputanga!</p>
+        <p class="lead">Dentro da região de Aquidauana, o trem faz paradas nas estações dos distritos de Piraputanga, Taunay e no centro de Aquidauana. Na estação de Piraputanga, os turistas encontram à venda salgados, doces e vários tipos de artesanato confeccionados por artesões de Piraputanga.</p>
+      </div>
+
+      <hr id="local" class="featurette-divider">
+      
+      <div class="featurette">
+        <img class="featurette-image pull-left" src="carousel/img/local.jpg">
+        <h2 class="featurette-heading">O local: <span class="muted">as belezas de nossa Estrada Parque!</span></h2>
+        <p class="lead">A Estrada Parque de Piraputanga, formada por afluentes do Rio Aquidauana e com uma fauna exuberante, é considerada uma das mais bonitas do sudoeste sulmatogrossense. Está localizada a pouco mais de 90 quilômetros da Capital de Campo Grande e abrange os municípios de Aquidauana e Dois Irmãos do Buriti. No seu trajeto, se percorre os distritos de Palmeiras, Piraputanga e Camisão.</p>
+        <p class="lead">O local cercado de lendas é considerado um lugar mágico. A beleza cênica da região, emoldurada pelos paredões de arenito da Serra de Maracaju e pelo Rio Aquidauana – cujo rio o Visconde de Taunay declarou seu encantamento por suas águas –, atrai visitantes amantes da natureza, da pesca e do turismo de contemplação.</p>
+      </div>
+
+	  <hr id="turismo" class="featurette-divider">
+      
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="carousel/img/turismo.jpg">
+        <h2 class="featurette-heading">Turismo: <span class="muted">você encontra aqui!</span></h2>
+        <p class="lead">As estradas parque são estradas que possuem características e critérios singulares. Suas principais características estão relacionadas à qualidade visual das paisagens que podem ser observadas ao longo de seus trajetos e à proteção ambiental do seu entorno natural e cultural.</p>
+        <p class="lead">Considerando que as estradas parque são atrativos turísticos de relevante valor paisagístico, fica evidente a relação do estudo da paisagem com o turismo e ainda a necessidade da preservação das paisagens naturais e humanizadas como atrativo turístico.</p>
+         <p class="lead">A estrutura turística da Estrada Parque de Piraputanga conta com pousadas e pesqueiros em seus três distritos: Palmeiras, Piraputanga e Camisão. Ela também é destino frequente dos praticantes de esportes de aventura, tais como o <i>trekking</i>, escalada, montanhismo, <i>mountain bike</i>, cicloturismo, boia cross, canoagem, <i>stand up paddle</i> e a observação de pássaros.</p>
+      </div>
+
+      <!-- /END THE FEATURETTES -->
+
+	<br/>
+	<br/>
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#inicio">Topo</a></p>
+        <p>© 2014 ATUPARK e <a href="http://www.ifms.edu.br/rightsidebar/campi/aquidauana/cursos/" target="_blank">IFMS campus Aquidauana</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="carousel/script/jquery.js"></script>
+    <script src="carousel/script/jquery-ui.js"></script>
+    <script src="carousel/script/lightbox.js"></script>
+    <script src="carousel/script/bootstrap-transition.js"></script>
+    <script src="carousel/script/bootstrap-alert.js"></script>
+    <script src="carousel/script/bootstrap-modal.js"></script>
+    <script src="carousel/script/bootstrap-dropdown.js"></script>
+    <script src="carousel/script/bootstrap-scrollspy.js"></script>
+    <script src="carousel/script/bootstrap-tab.js"></script>
+    <script src="carousel/script/bootstrap-tooltip.js"></script>
+    <script src="carousel/script/bootstrap-popover.js"></script>
+    <script src="carousel/script/bootstrap-button.js"></script>
+    <script src="carousel/script/bootstrap-collapse.js"></script>
+    <script src="carousel/script/bootstrap-carousel.js"></script>
+    <script src="carousel/script/bootstrap-typeahead.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#inicio').carousel()
+        })
+      }(window.jQuery)
+      
+      $(document).ready(function(){
+		$('a[href^="#"]').on('click',function (e) {
+			e.preventDefault();
+
+			var target = this.hash;
+			$target = $(target);
+
+			$('html, body').stop().animate({
+			    'scrollTop': $target.offset().top
+			}, 900, 'swing', function () {
+			    window.location.hash = target;
+			});
+			});
+		});
+	
+		 $(function() {
+    		$( "#dialogaguas" ).dialog({
+      			autoOpen: false,
+    		});
+ 
+    		$( "#imgaguas" ).click(function() {
+      			$( "#dialogaguas" ).dialog( "open" );
+    		});
+  		});
+    </script>
+  
+
+</body></html>
